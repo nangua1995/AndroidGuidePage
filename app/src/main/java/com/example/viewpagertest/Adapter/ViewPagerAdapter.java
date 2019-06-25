@@ -1,4 +1,4 @@
-package com.example.viewpagertest;
+package com.example.viewpagertest.Adapter;
 
 import android.view.View;
 import android.view.ViewGroup;

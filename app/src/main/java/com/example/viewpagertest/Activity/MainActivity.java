@@ -1,12 +1,14 @@
-package com.example.viewpagertest;
+package com.example.viewpagertest.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
+
+import com.example.viewpagertest.R;
+import com.example.viewpagertest.Adapter.ViewPagerAdapter;
 
 import java.util.ArrayList;
 
