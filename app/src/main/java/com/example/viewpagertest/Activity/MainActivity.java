@@ -11,7 +11,7 @@ import com.example.viewpagertest.R;
 import com.example.viewpagertest.Adapter.ViewPagerAdapter;
 
 import java.util.ArrayList;
-
+//mainActivity是对于ViewPager使用的
 public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private ArrayList<View> aList;
