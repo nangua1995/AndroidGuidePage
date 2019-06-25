@@ -28,6 +28,7 @@ public class WelcomeActivity extends AppCompatActivity {
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
+                    /*2秒后进入主页*/
                     enterRootActivity();
                 }
             },2000);
