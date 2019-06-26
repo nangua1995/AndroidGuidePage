@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
             return;
         }
-
+        //TODO：imageView的点击事件存在问题，只能切换到当前imageVIew的时候才能点击
         int pos = (Integer)view.getTag();
        // Toast.makeText(MainActivity.this,"点击了第"+pos+"个按钮",Toast.LENGTH_SHORT);
         setCurrentView(pos);
